@@ -74,7 +74,7 @@ footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #d8d8d0; fon
 </header>
 <main>
 <h1>Privacy Policy</h1>
-<p><strong>Last updated: 7 August 2026</strong></p>
+<p><strong>Last updated: 18 October 2026</strong></p>
 <hr>
 <h2>1. Who we are</h2>
 <p>Slayde is operated by Gadgett Beats Jan Rediger, a sole proprietorship registered in Poland. In this policy, "we", "us" and "Slayde" refer to that business. "You" refers to the person using the Slayde panel, whom we also call the producer.</p>
@@ -118,7 +118,7 @@ footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #d8d8d0; fon
 <h3>4.4 To run the assistant the way you configured it</h3>
 <p>We store the settings you enter in the panel: the persona you write for your assistant, the prompt text your assistant uses in draft and live form, the version history of that prompt text, your quiet hours, your time zone, your reply delay settings, your follower threshold setting, and the master switch that turns the assistant on or off. We also store the Instagram usernames you add to your blocked accounts list.</p>
 <h3>4.5 To provide the research tool and the learning material</h3>
-<p>We store the Spotify playlist links you submit and the state of each lookup, your table layout and filter preferences, and which lessons you have marked as completed.</p>
+<p>We store the Spotify playlist links you submit and the state of each lookup, your table layout and filter preferences, and which lessons you have marked as completed. When the research tool collects artist information, we also keep a cost record for each collection step: the amount reserved and charged, the number of artists, timestamps and the identifier of the collection run at our data provider. These records contain no artist information and are deleted together with your account.</p>
 <h3>4.6 To keep a record of account deletions</h3>
 <p>When an account is deleted we write one audit record containing the email address of the deleted account, the IP address the request came from and the browser user agent string. This record does not contain your other data and is kept so that we can show a deletion actually happened. Please read section 12, which is honest about how long it stays.</p>
 <h3>4.7 Integrations that are not in operation</h3>
@@ -170,15 +170,17 @@ footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #d8d8d0; fon
 <p>The assistant generates reply text and the assessment fields in section 5.4 automatically. These are not decisions that produce legal effects or similarly significant effects on anyone. The producer can read every conversation, override or switch off the assistant, and reply manually. No automated decision is made about a person's access to credit, employment, or any comparable matter.</p>
 <h2>7. Artist information in the research tool</h2>
 <p>This is a research and discovery tool for reviewing artist information. <strong>It does not send messages.</strong></p>
-<p>If a producer submits a Spotify playlist link, information about the artists associated with that playlist is collected on the producer's behalf and stored so they can review it in a table. The fields we hold are: artist name, Spotify profile link, top track names and identifiers, monthly listener counts, Instagram handle, genre labels and biography text.</p>
-<p><strong>As at the date of this policy we hold no email addresses in this tool.</strong></p>
-<p>An artist who wants their entry removed can write to <a href="mailto:gadgetbeats99@gmail.com">gadgetbeats99@gmail.com</a> and we will remove it.</p>
+<p>If a producer submits a Spotify playlist link, information about the artists associated with that playlist is collected on the producer's behalf and stored so they can review it in a table. The fields we hold are: artist name, Spotify profile link, top track names and identifiers, monthly listener counts and Instagram handle. We do not store biography text, genre labels or email addresses in this tool.</p>
+<p><strong>Where the information comes from.</strong> The information comes from publicly accessible Spotify pages: the playlist the producer submitted and the public profile pages of the artists on it. A third-party web data provider reads those pages for us, acting on our instructions. We send it only the playlist link and the public Spotify profile links of those artists, never the producer's name, email address or any other account information.</p>
+<p><strong>A shared copy of public artist information.</strong> We keep one shared copy of each collected artist's public information (the fields listed above). It is not linked to any producer account. When another producer submits a playlist with the same artist, we reuse that copy instead of collecting it again. We keep this shared copy for our own purpose of running the tool efficiently, so for it we are the controller. It is not removed when a producer deletes their account. When an entry is older than fourteen days and is needed again, it is collected again and the copy is updated; no process deletes entries automatically.</p>
+<p>An artist who wants their information removed can write to <a href="mailto:gadgetbeats99@gmail.com">gadgetbeats99@gmail.com</a>. We will remove it from the shared copy and from every producer's table in Slayde. If a producer later submits a playlist that features the same artist, the tool may collect that public information again.</p>
 <h2>8. Companies that process data for us</h2>
 <div class="table-wrap">
 <table>
 <thead><tr><th>Company</th><th>What it receives</th><th>Why</th></tr></thead>
 <tbody>
 <tr><td>Supabase</td><td>All data described in this policy: accounts, settings, conversations, message content, billing identifiers</td><td>It provides our database, our authentication and our data storage</td></tr>
+<tr><td>Web data provider</td><td>The Spotify playlist links producers submit and the public Spotify profile links of the artists on those playlists. No producer account information</td><td>It reads public Spotify pages for the research tool, acting on our instructions</td></tr>
 <tr><td>OpenAI</td><td>Up to thirty recent messages of a conversation and the producer's configured prompt text, as described in section 5.3</td><td>To generate the reply text and the conversation assessment</td></tr>
 <tr><td>Stripe</td><td>Your email address, your internal account identifier and subscription identifiers. Your card details go directly to Stripe and never reach us</td><td>To take subscription payment and to run the billing portal</td></tr>
 <tr><td>Meta Platforms</td><td>The text of every reply sent to a person, and the recipient's Instagram identifier. Meta also delivers every incoming message to us, sends the comment notifications described in section 5.6, and serves message attachments to the producer's browser when a conversation is opened</td><td>Instagram is the messaging channel. Meta necessarily sees the messages carried over it</td></tr>
@@ -194,6 +196,7 @@ footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #d8d8d0; fon
 <li>Meta Platforms: <a href="https://www.facebook.com/privacy/policy">https://www.facebook.com/privacy/policy</a></li>
 <li>Google: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
 </ul>
+<p>We name the web data provider on request: write to <a href="mailto:gadgetbeats99@gmail.com">gadgetbeats99@gmail.com</a>.</p>
 <p>We do not state how long these companies keep data on their own systems, or in which countries they process it. That is governed by their own terms, and those terms are the authoritative source.</p>
 <h2>9. Where your data is stored, and transfers outside the European Economic Area</h2>
 <p><strong>Our database is hosted in the United States, in the AWS region us-east-1.</strong> This means your data, including the content of conversations, is stored and processed in the United States and therefore leaves the European Economic Area.</p>
@@ -224,13 +227,14 @@ footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #d8d8d0; fon
 <p>Two things to note, neither of which is analytics or advertising on our part. Opening a conversation that contains an attachment loads that attachment from Meta's servers, as described in section 5.1, so Meta receives that request. Signing in takes you to Google's own sign-in pages, which are governed by Google's policies.</p>
 <h2>12. How long we keep data</h2>
 <p>We are going to be plain about this, because a vague answer here would be misleading.</p>
-<p><strong>No automatic deletion runs anywhere in our systems today.</strong> There is no scheduled job, no expiry timer and no retention process that removes data after a period of time. We have verified this: no scheduled database task exists, no scheduled server function is deployed, and no background workflow is enabled.</p>
+<p><strong>No automatic deletion runs anywhere in our systems today.</strong> There is no scheduled job, no expiry timer and no retention process that removes data after a period of time. Our servers do run background processes, for example the one that sends your assistant's replies and the one that collects artist information for the research tool, but none of them deletes stored data after a period of time.</p>
 <p>This means:</p>
 <ul>
 <li><strong>Your account data stays until you delete your account.</strong> When you delete it, the deletion happens immediately and is not reversible.</li>
 <li><strong>Conversation content, including message text and the assessment fields, stays until you delete the conversation or delete your account.</strong> Deleting a conversation removes its messages, its sent message records and its assessments at the same time.</li>
 <li><strong>The Instagram connection is cleared</strong> as soon as you disconnect it in the panel, or when you remove Slayde's access from inside Instagram, or when Meta sends us a data deletion request for that account.</li>
 <li><strong>The account deletion audit record described in section 4.6 stays after your account is gone.</strong> It holds an email address, an IP address and a user agent string. We intend to keep such records for one year, but we are telling you honestly that no process currently deletes them automatically. If you want yours removed, write to us and we will remove it.</li>
+<li><strong>The shared copy of public artist information described in section 7 stays until we remove it on request.</strong> It is not linked to any account, so deleting an account does not remove it.</li>
 </ul>
 <p>If you would like anything else removed sooner, section 14 explains how to ask.</p>
 <h2>13. Your rights</h2>
